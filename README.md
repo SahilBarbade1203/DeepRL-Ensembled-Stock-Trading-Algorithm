@@ -51,3 +51,37 @@ To install the required dependencies, run:
 
 ```bash
 pip install -r requirements.txt
+
+```
+## Usage
+
+### Train the Models:
+- Run `train.py` to train the DQN, DDQN, and DDPG models.
+- The trained weights will be saved in the `RL_Models_Weights/` directory.
+
+### Test the Models:
+- Run `test.py` to evaluate the performance of the trained models.
+
+### Ensemble and Evaluate:
+- Use `Ensemble_Pipeline.py` to ensemble the predictions from the models and generate the final trading signals.
+- Visualize the results using `Final_Script.ipynb`.
+
+## Results
+
+The ensemble model's performance is evaluated on the Nifty50 stock data, showing promising results in terms of cumulative returns, risk-adjusted returns, and overall trading strategy robustness.
+
+### Example Plots
+![Cumulative Returns](Results%20&%20Plots/cumulative_returns.png)
+![Sharpe Ratio](Results%20&%20Plots/sharpe_ratio.png)
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or inquiries, please contact [Sahil Dhanraj Barbade](mailto:sahilbarbade1203@gmail.com).
