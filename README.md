@@ -71,7 +71,7 @@ pip install -r requirements.txt
 The ensemble model's performance is evaluated on the Nifty50 stock data, showing promising results in terms of cumulative returns, risk-adjusted returns, and overall trading strategy robustness.
 
 ### Example Plots
-![Cumulative Returns](Results%20&%20Plots/cumulative_returns.png)
+![Cumulative Returns](Results%20&%20Plots/DDPG_Results/DDPG_training_plots_1.png)
 ![Sharpe Ratio](Results%20&%20Plots/sharpe_ratio.png)
 
 ## Contributing
