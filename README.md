@@ -73,7 +73,7 @@ The ensemble model's performance is evaluated on the Nifty50 stock data, showing
 ### Example Plots
 -DDPG : ![Cumulative Returns](Results%20&%20Plots/DDPG_Results/DDPG_testing_plots.png)
 -DDQN : ![Cumulative Returns](Results%20&%20Plots/DDQN_Results/DDQN_testing_plots.png)
--DQN : ![Cumulative Returns](Results%20&%20Plots/DQN_Results/DQN_testing_plots.png)
+-DQN : ![Cumulative Returns](Results%20&%20Plots/DQN_Results/DQN_testing_plot.png)
 
 ## Contributing
 
